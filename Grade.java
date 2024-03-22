@@ -10,6 +10,7 @@ public class Grade {
     grad = input.nextInt();
     input.close();
 
+
     if(grad >= 90){
         System.out.println("You have an A");
     }
