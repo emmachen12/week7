@@ -1,3 +1,4 @@
+//emma
 import java.util.*;
 public class Prompter {
     public static void main (String [] args)
@@ -15,9 +16,10 @@ public class Prompter {
     do 
     {
     System.out.print("Enter again: ");
-    input.close();
+    ans = input.nextInt();
 
-    } while ( ans >= min && ans <= max);
+
+    } while ( ans < min || ans> max);
 
     System.out.print("the number is: " + ans);
 

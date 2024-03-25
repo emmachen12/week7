@@ -1,3 +1,4 @@
+//Emma
 import java.util.*;
 public class GCD {
     public static void main (String [] args)
@@ -18,8 +19,9 @@ public class GCD {
     gcd = num1 % num2;
     num1 = num2;
     num2 = gcd;
-    System.out.println("The GCD is: " + gcd);
     } while (num2 > 0);
+
+    System.out.println("The GCD is: " + num1);
 
     }
 }
